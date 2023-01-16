@@ -1,19 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="https://avatars.githubusercontent.com/u/78498397?v=4">
-    <HelloWorld msg="Genius Brilliant Science Tech"/>
+    <img
+      alt="Vue logo"
+      src="https://avatars.githubusercontent.com/u/78498397?v=4"
+    />
+    <HelloWorld msg="Genius Brilliant Science Tech" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+  },
+};
 </script>
 
 <style>
@@ -54,16 +57,16 @@ export default {
   flex: 0 0 100%;
   text-align: center;
 }
-[class*="__lg"] {
+[class*='__lg'] {
   display: inline-block;
   width: 100%;
   font-size: 1.9rem;
 }
-[class*="__lg"]:not(:last-child) {
+[class*='__lg']:not(:last-child) {
   margin-bottom: 1rem;
 }
 @media screen and (min-width: 620px) {
-  [class*="__lg"] {
+  [class*='__lg'] {
     font-size: 2.4rem;
   }
 }
@@ -77,7 +80,7 @@ export default {
   clip-path: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
-[class*="stack"] > * {
+[class*='stack'] > * {
   margin-top: 0;
   margin-bottom: 0;
 }
